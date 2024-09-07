@@ -9,8 +9,8 @@ namespace WinchModTemplate
 		/// </summary>
 		public static void Initialize()
 		{
-			var gameObject = new GameObject(nameof(WinchModTemplate));
-			gameObject.AddComponent<WinchModTemplate>();
+			var gameObject = new GameObject(nameof(DredgeAquarium));
+			gameObject.AddComponent<DredgeAquarium>();
 			GameObject.DontDestroyOnLoad(gameObject);
 		}
 	}
